@@ -9,25 +9,41 @@
 
 <link rel="stylesheet" href="app.component.css">
 
-<img class="perfil" src="img/perfil.jpg" alt="imagen rostro Sofia Tarditti">
+
+
+<app-header (clickModal)="abrirModal()"></app-header>
+
+<div *ngIf="modal == true">
+
+	<app-modal (closeModal)="cerrarModal()" (loginModal)="onModalClicked()"></app-modal>
+	
+</div>
+
+
 
 <body>
-	<app-header></app-header>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+<div class=info>
+	<div class="perfil-container">
+		<img class="perfil" src="../assets/perfilok.png">
+		<h1 style="color:rgb(225, 240, 236)">{{title}}</h1>
+	</div>
+	<app-acerca-de></app-acerca-de>
+	<app-formacion></app-formacion>
+	<div *ngIf="logged == false">
+	<app-experiencia></app-experiencia>
+	</div>
+	<div *ngIf="logged == true">
+		<app-editar-expe></app-editar-expe>
+	</div>
+	<router-outlet></router-outlet>
+	<app-otras-habilidades></app-otras-habilidades>
+</div>
 
-	<h1 class="cabecera">{{title}}</h1>
-	<p>Rosario, 1992</p>
-	<h5>Formación</h5>
-	<p>Profesora y Licenciada en Bellas Artes</p>
-	<p>Universidad Nacional de Rosario, 2023</p>
-	<p>Actualmente estudiando para <i>Desarrollador Web Full Stack</i> en Argentina Programa</p>
-	<h5>Experiencia laboral</h5>
-	<p>bla bla bla</p>
-	<h5>Otras habilidades</h5>
-	<p>bla bla bla</p>
 
+<app-footer></app-footer>
 
-	<p><a href="https://www.instagram.com/sofia.tarditti/">instagram</a></p>
 
 </body>
+
 </html>

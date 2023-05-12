@@ -1,0 +1,25 @@
+header{
+    
+    background-color: rgb(115, 136, 164);
+}
+    
+.contenedor-flexbox {
+       
+        display:flex; 
+        justify-content: space-between;
+        align-items: center; 
+    }
+     
+
+    .logoArgProg{
+        display: flex;
+        width: 15%;
+        height: 15%;
+      }
+    
+    .login{
+        
+        text-align: right;
+        margin-right: 2%;
+        padding: 1%;
+    }

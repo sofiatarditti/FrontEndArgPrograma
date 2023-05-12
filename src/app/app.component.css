@@ -1,0 +1,31 @@
+
+.info{
+    padding-top: 1%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.086);
+    width: 60%;
+    height: 80%;
+
+}
+
+.perfil-container{
+    margin-left: 25%;
+    background-color:rgb(47, 54, 85);
+    width: 50%;
+    height: 30%;
+    border-radius: 5%;
+    
+  
+    
+}
+.perfil{
+   padding-top: 1%;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: 4px solid rgb(47, 54, 85);
+    text-align: center;
+    
+
+}
