@@ -4,6 +4,7 @@ Lamentablemente tuve que hacer un inicio de sesión en el front porque tuve dema
 Debido a la falta de más tiempo para poder solucionar estos problemas y la persistencia de los errores, tomé la desición de eliminar todo tipo de login en mi back, y hacer una comprobación básica en el front para que muestre/no muestre lo editable según se desee editar o solo visitar
 Finalmente, pido disculpas por no haber podido realizar CRUD en todas las partes del portfolio, comencé con la experiencia laboral y por falta de tiempo no pude implementarlo en las otras áreas, realmente estuve muchos días renegando con el tema del login y el Token.
 Hoy por hoy puedo decir que aprendí mucho y estoy agradecida de toda la información y acompañamiento que nos brindaron, sin embargo el TP Final se me hizo muy muy díficl de desarrollar, viendo muchos videos y hablando con compañeros fui entendiendo, hoy en día sé mucho más que cuando terminé el módulo 8 y 9, pero aún así el tiempo fue insuficiente para poder entregar algo mejor.
+Adjunto el link del repo donde está el login: https://github.com/sofiatarditti/portfolioBackEnd
 
 # PortfolioFrontEnd
 
